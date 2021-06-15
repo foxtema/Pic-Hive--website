@@ -1,0 +1,40 @@
+.clints{
+  margin: 0;
+  padding-top: 150px;
+  display: fle;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: rgb(44, 44, 46);
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  
+}
+
+.glide__slide img{
+  width: 60%;
+}
+
+.glide__slide{
+  filter: blur(6px);
+  opacity: .7;
+  transition: .3s linear;
+}
+
+.glide__slide--active{
+  opacity: 1;
+  filter: none;
+  transform: scale(1.1);
+}
+
+.glide__slides{
+  overflow: visible;
+}
+.clints H1{
+
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+
